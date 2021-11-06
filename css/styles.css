@@ -1,0 +1,327 @@
+/* Nav Bar */
+
+.navbar-brand{
+  font-family: tahoma, sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1rem;
+}
+
+/* Profile */
+
+.profile-img {
+  height: 200px;
+  display: block;
+  margin: 40px auto 20px auto;
+  border-radius: 100%
+}
+
+.name {
+  margin-top: 0;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+
+.position {
+  color: #445E93;
+  text-align: center;
+  font-weight: bold;
+}
+
+.p1 {
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  padding-bottom: 6rem;
+  line-height: 2;
+}
+
+/* Educación */
+
+.tec-img{
+  height: 100px;
+  border-radius: 100%;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.utsa-img{
+  height: 50px;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+
+/* Experiencia Profesional */
+
+.amez-img{
+  height: 60px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+.gbm-img{
+  height: 140px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Habilidades */
+.carousel{
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.carousel-inner{
+  height: 12rem;
+}
+
+#skill-carousel-1{
+  padding-bottom: 0;
+}
+
+#skill-carousel-2{
+  padding-bottom: 0;
+}
+
+.skill-title{
+  color: #ffff;
+  font-weight: bold;
+  margin: 3rem 0 0;
+  text-align: center;
+}
+
+.icon{
+  text-align: center;
+  color: #ffff;
+}
+
+.icon-1{
+  text-align: center;
+  color: #ffff;
+}
+
+.software-title{
+  color: #ffff;
+  font-weight: bold;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.excel-img{
+  padding: 35px 0 35px 0;
+}
+
+.r-img{
+  padding: 25px 0 25px 0;
+}
+
+.reuters-img{
+}
+
+.bloomberg-img{
+  height: auto;
+  width: 100px;
+}
+
+.card-title{
+  color: #ffff;
+  font-weight: bold;
+}
+
+.card-img-top{
+  margin-top: 0;
+  display: block;
+  margin: auto;
+  height: 140px;
+  width: auto;
+}
+
+/* Contact Me */
+
+.btn{
+  margin:10rem 0 2rem 0;
+}
+
+.a-mail{
+  color: white;
+  font-family: helvetica, tahoma, sans-serif;
+  text-decoration: none;
+}
+
+.a-mail:hover{
+  color: white;
+  text-decoration: none;
+}
+
+/* Bottom */
+
+.footer-link {
+  margin: 10px 20px;
+  color: #6c757d;
+  font-family: helvetica, tahoma, sans-serif;
+  text-decoration: none;
+}
+
+.footer-link:hover{
+  color: #EAF6F6;
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+/* Sections */
+
+#title {
+  background-color: #C9DAEA;
+  font-family: helvetica, tahoma, sans-serif;
+}
+
+
+
+#educacion{
+  background-color: #343a40;
+  font-family: helvetica, tahoma, sans-serif;
+  text-align: center;
+  padding: 2rem 0;
+  margin-top: 4rem;
+}
+
+#experienciap{
+  background-color: #C9DAEA;
+  font-family: helvetica, tahoma, sans-serif;
+  padding: 2rem 0;
+}
+
+#experienciaa{
+  background-color: #343a40;
+  font-family: helvetica, tahoma, sans-serif;
+  padding: 2rem 0;
+}
+
+#voluntariado{
+  background-color: #C9DAEA;
+  font-family: helvetica, tahoma, sans-serif;
+  padding: 2rem 0;
+}
+
+#habilidades{
+  background-color: #343a40;
+  font-family: helvetica, tahoma, sans-serif;
+  text-align: center;
+}
+
+#software{
+  background-color: #343a40;
+  font-family: helvetica, tahoma, sans-serif;
+  text-align: center;
+  padding:0 100px 100px 100px;
+}
+
+#libros{
+  background-color: #C9DAEA;
+  font-family: helvetica, tahoma, sans-serif;
+  padding: 100px 0;
+  margin-bottom: 4rem;
+}
+
+#contact-me {
+  background-color: #C9DAEA;
+  font-family: helvetica, tahoma, sans-serif;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+#bottom {
+  background-color: #343a40;
+  font-family: helvetica, tahoma, sans-serif;
+  padding: 50px 0 20px 0;
+  text-align: center;
+}
+
+.p-grey{
+  color: #ced4da;
+}
+
+
+
+body{
+  background-color: #C9DAEA;
+}
+
+
+.a1{
+  color: #445E93;
+  font-family: helvetica, tahoma, sans-serif;
+  text-decoration: none;
+}
+
+.a1:hover{
+  color: #14213d;
+  text-decoration: none;
+}
+
+.a2{
+  color: #ffff;
+  font-family: helvetica, tahoma, sans-serif;
+  text-decoration: none;
+}
+
+.a2:hover{
+  color: #ced4da;
+  text-decoration: none;
+}
+
+hr {
+  border: 6px dotted grey;
+
+  border-bottom: none;
+  width: 4%;
+  margin: 0 auto;
+}
+
+hr:hover {
+  border-color: #445E93;
+}
+
+.header-1 {
+  color: #445E93;
+  font-weight: bold;
+  text-align: left;
+  padding: 0 20px;
+  font-family: helvetica, tahoma, sans-serif;
+}
+
+.header-2 {
+  color: #ffff;
+  font-weight: bold;
+  text-align: left;
+  padding: 0 20px;
+  font-family: helvetica, tahoma, sans-serif;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-just{
+  text-align: justify;
+}
+
+.top-margin{
+  margin-top: 2rem;
+}
