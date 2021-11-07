@@ -179,7 +179,8 @@ hr:hover {
 .software-title{
   color: #ffff;
   font-weight: bold;
-  margin-bottom: 3rem;
+  margin: 0 0 3rem;
+  border: none;
 }
 
 .excel-img{
@@ -249,10 +250,6 @@ hr:hover {
   margin-top: 4rem;
 }
 
-#software{
-  padding:0 100px;
-}
-
 #libros{
   margin-bottom: 4rem;
 }
@@ -300,9 +297,36 @@ hr:hover {
     height: auto;
   }
 
-  #software{
-    padding: 0;
+
+
+  .excel-img{
+    padding: 25px 0;
   }
 
+  .r-img{
+    padding: 20px 0;
+  }
+
+  .bloomberg-img{
+    height: 50px;
+    height: auto;
+  }
+
+  .reuters-img{
+    height: 50px;
+    width: auto;
+  }
+
+  .card-img-top{
+  height: 100px;
+  }
+
+  .card-body{
+    font-size: 1rem;
+  }
+
+  .software-container{
+    padding: 0;
+  }
 
 }
