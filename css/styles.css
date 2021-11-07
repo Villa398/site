@@ -1,7 +1,81 @@
+body{
+  background-color: #C9DAEA;
+  font-family:helvetica, tahoma, sans-serif;
+  text-align: center;
+}
+
+/* Headings */
+
+.header-1 {
+  color: #0054A3;
+  font-weight: bold;
+  text-align: left;
+  padding: 0 20px;
+}
+
+.header-2 {
+  color: #ffff;
+  font-weight: bold;
+  text-align: left;
+  padding: 0 20px;
+}
+
+/* Links */
+
+.a1{
+  color: #0054A3;
+  text-decoration: none;
+}
+
+.a1:hover{
+  color: #14213d;
+  text-decoration: none;
+}
+
+.a2{
+  color: #ffff;
+  text-decoration: none;
+}
+
+.a2:hover{
+  color: #ced4da;
+  text-decoration: none;
+}
+
+/* Divisor */
+
+hr {
+  border: 6px dotted grey;
+  border-bottom: none;
+  width: 4%;
+  margin: 0 auto;
+}
+
+hr:hover {
+  border-color: #0054A3;
+}
+
+/* Text Format */
+
+.p-grey{
+  color: #ced4da;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-just{
+  text-align: justify;
+}
+
+.top-margin{
+  margin-top: 2rem;
+}
+
 /* Nav Bar */
 
 .navbar-brand{
-  font-family: tahoma, sans-serif;
   font-size: 2rem;
   font-weight: bold;
 }
@@ -18,30 +92,28 @@
 
 .profile-img {
   height: 200px;
+  width: auto;
   display: block;
   margin: 40px auto 20px auto;
   border-radius: 100%
 }
 
-.name {
-  margin-top: 0;
-  color: black;
-  text-align: center;
+.name{
   font-weight: bold;
 }
 
 .position {
-  color: #445E93;
-  text-align: center;
+  color: #0054A3;
   font-weight: bold;
 }
 
 .p1 {
-  text-align: center;
+  font-weight: normal;
   width: 70%;
   margin: auto;
-  padding-bottom: 6rem;
+  padding-bottom: 3rem;
   line-height: 2;
+  font-size: 1.2rem;
 }
 
 /* Educación */
@@ -49,14 +121,12 @@
 .tec-img{
   height: 100px;
   border-radius: 100%;
-  margin-top: 3rem;
-  margin-bottom: 2rem;
+  margin: 3rem 0 2rem;
 }
 
 .utsa-img{
   height: 50px;
-  margin-top: 5rem;
-  margin-bottom: 3rem;
+  margin: 5rem 0 3rem;
 }
 
 /* Experiencia Profesional */
@@ -64,22 +134,17 @@
 .amez-img{
   height: 60px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 4rem;
-  margin-bottom: 2rem;
+  margin: 2rem auto;
 }
 
 .gbm-img{
   height: 140px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 
 /* Habilidades */
 .carousel{
-  text-align: center;
   padding: 4rem 0;
 }
 
@@ -99,24 +164,22 @@
   color: #ffff;
   font-weight: bold;
   margin: 3rem 0 0;
-  text-align: center;
 }
 
 .icon{
-  text-align: center;
   color: #ced4da;
 }
 
 .icon-1{
-  text-align: center;
   color: #ffff;
 }
+
+/* Software */
 
 .software-title{
   color: #ffff;
   font-weight: bold;
   margin-bottom: 3rem;
-  text-align: center;
 }
 
 .excel-img{
@@ -125,9 +188,6 @@
 
 .r-img{
   padding: 25px 0 25px 0;
-}
-
-.reuters-img{
 }
 
 .bloomberg-img{
@@ -155,28 +215,16 @@
 }
 
 .a-mail{
-  color: white;
-  font-family: helvetica, tahoma, sans-serif;
+  color: #ffff;
   text-decoration: none;
 }
 
 .a-mail:hover{
-  color: white;
+  color: #ffff;
   text-decoration: none;
 }
 
 /* Bottom */
-
-.footer-link {
-  margin: 10px 20px;
-  color: #6c757d;
-  font-family: helvetica, tahoma, sans-serif;
-  text-decoration: none;
-}
-
-.footer-link:hover{
-  color: #EAF6F6;
-}
 
 .copyright{
   color: #EAF6F6;
@@ -184,148 +232,77 @@
   padding: 20px 0;
 }
 
-/* Sections */
-
-#title {
-  background-color: #C9DAEA;
-  font-family: helvetica, tahoma, sans-serif;
+#bottom .icon{
+  padding:0 30px 20px;
 }
 
+/* Sections */
+.colored-section{
+  background-color: #343a40;
+}
 
+.section-padding{
+  padding: 2rem 0;
+}
 
 #educacion{
-  background-color: #343a40;
-  font-family: helvetica, tahoma, sans-serif;
-  text-align: center;
-  padding: 2rem 0;
   margin-top: 4rem;
 }
 
-#experienciap{
-  background-color: #C9DAEA;
-  font-family: helvetica, tahoma, sans-serif;
-  padding: 2rem 0;
-}
-
-#experienciaa{
-  background-color: #343a40;
-  font-family: helvetica, tahoma, sans-serif;
-  padding: 2rem 0;
-}
-
-#voluntariado{
-  background-color: #C9DAEA;
-  font-family: helvetica, tahoma, sans-serif;
-  padding: 2rem 0;
-}
-
-#habilidades{
-  background-color: #343a40;
-  font-family: helvetica, tahoma, sans-serif;
-  text-align: center;
-}
-
 #software{
-  background-color: #343a40;
-  font-family: helvetica, tahoma, sans-serif;
-  text-align: center;
-  padding:0 100px 100px 100px;
+  padding:0 100px;
 }
 
 #libros{
-  background-color: #C9DAEA;
-  font-family: helvetica, tahoma, sans-serif;
-  padding: 100px 0;
   margin-bottom: 4rem;
 }
 
-#contact-me {
-  background-color: #C9DAEA;
-  font-family: helvetica, tahoma, sans-serif;
+#contact-me{
   padding-bottom: 20px;
-  text-align: center;
 }
 
-#bottom {
-  background-color: #343a40;
-  font-family: helvetica, tahoma, sans-serif;
+#bottom{
   padding: 50px 0 20px 0;
-  text-align: center;
 }
 
-.p-grey{
-  color: #ced4da;
-}
+@media (max-width: 500px) {
+
+  .profile-img {
+    width: 40%;
+    height: auto;
+    display: block;
+    margin: 40px auto 20px auto;
+    border-radius: 100%
+  }
+
+  .name{
+    font-size: 2rem;
+  }
+
+  .position{
+    font-size: 1.5rem;
+  }
+
+  .p1{
+    text-align: justify;
+    font-size: 1 rem;
+    width: 90%;
+    line-height: 1.5;
+  }
+
+  .amez-img{
+    width: 80%;
+    height: auto;
+  }
+
+  .gbm-img{
+    width: 65%;
+    height: auto;
+  }
+
+  #software{
+    padding: 0;
+  }
 
 
-
-body{
-  background-color: #C9DAEA;
-}
-
-
-.a1{
-  color: #445E93;
-  font-family: helvetica, tahoma, sans-serif;
-  text-decoration: none;
-}
-
-.a1:hover{
-  color: #14213d;
-  text-decoration: none;
-}
-
-.a2{
-  color: #ffff;
-  font-family: helvetica, tahoma, sans-serif;
-  text-decoration: none;
-}
-
-.a2:hover{
-  color: #ced4da;
-  text-decoration: none;
-}
-
-hr {
-  border: 6px dotted grey;
-
-  border-bottom: none;
-  width: 4%;
-  margin: 0 auto;
-}
-
-hr:hover {
-  border-color: #445E93;
-}
-
-.header-1 {
-  color: #445E93;
-  font-weight: bold;
-  text-align: left;
-  padding: 0 20px;
-  font-family: helvetica, tahoma, sans-serif;
-}
-
-.header-2 {
-  color: #ffff;
-  font-weight: bold;
-  text-align: left;
-  padding: 0 20px;
-  font-family: helvetica, tahoma, sans-serif;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.text-just{
-  text-align: justify;
-}
-
-.top-margin{
-  margin-top: 2rem;
-}
-
-#bottom .icon{
-  padding:0 30px 20px;
 }
